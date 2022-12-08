@@ -1,0 +1,45 @@
+
+section{
+  width: 20%;
+  border: 5px solid green;
+  background: white;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;  
+}
+
+table{
+  width:20%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  padding: 3px;
+  border: 5px solid green;
+  border-collapse: collapse;
+}
+
+td{
+  border:5px solid green;
+  padding: 5px;
+  text-align: center;
+}
+th{
+  padding: 5px;
+  color: green;
+}
+
+label{
+  padding: 5px;
+  display: inline-block;
+  width: 70px;
+  margin-left: 10px;
+}
+
+
+.box{
+  padding-left:20px;
+  overflow: auto;
+  border:1px black solid;
+}
+
