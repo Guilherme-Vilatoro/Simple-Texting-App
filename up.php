@@ -1,10 +1,10 @@
     <?php 
         //Makes DB connection
         global $con;
-        $servername = "sql1.njit.edu";
-        $username = "gv8";
-        $password = "WWP6happygoldcranes@";
-        $dbname = "gv8";
+        $servername = "";
+        $username = "";
+        $password = "";
+        $dbname = "";
         $con = mysqli_connect($servername,$username,$password,$dbname);
         if (mysqli_connect_errno()){
             echo "Failed to connect to MySQL: " . mysqli_connect_error();
